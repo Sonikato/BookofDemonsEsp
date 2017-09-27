@@ -1,0 +1,1265 @@
+## DEMONS - DEMO - LAUNCHER - ENGLISH
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for !params! names of !magic! variants: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+##################################
+## Archive of Awesome  
+##################################
+
+#welcome_player = "Welcome \1" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+
+############################ Products ##############################
+
+product_unknown = "Contenido Misterioso"
+product_launcher = "Archivos de lo Increible"
+product_bod = "Libro de Demonios"
+
+product_boa = "Libro de Aliens"
+player = "Jugador"
+
+############################ Pedestals ##############################
+
+lclick = "\s0 click izq. para empezar"
+lclick_pad = "presiona \s0 para empezar"
+rclick = "\s1 click der. para ir a opciones"
+rclick_pad = "presiona \s1 para ir a opciones"
+
+rclick_beta = "\s0 click para mirar las notas"
+rclick_beta_pad = "Presiona \s0 para leer las notas del Beta"
+rclick_demo = "\s1 haz click para aprender más"
+rclick_demo_pad = "Presiona \s1 para aprender más"
+loading = "CARGANDO"
+
+wnd_btn_ok = "OK"
+wnd_btn_accept = "Aceptar"
+wnd_btn_reject = "Rechazar"
+wnd_btn_apply = "Aplicar"
+wnd_btn_cancel = "Cancelar"
+wnd_btn_yes = "Si"
+wnd_btn_no = "No"
+wnd_btn_back = "Atrás"
+wnd_btn_close = "Cerrar"
+wnd_btn_sel_and_close = "Seleccionar y Cerrar"
+wnd_btn_continue = "Continuar"
+wnd_btn_retry = "Reintentar"
+wnd_btn_abort = "Abortar"
+
+############################ Options ##############################
+
+wnd_opt_title = "OPCIONES"
+wnd_opt_sfx_volume = "Volumen SFX"
+wnd_opt_music_volume = "Volumen de la música"
+wnd_opt_graphics_options = "Opciones Gráficas"
+wnd_opt_btn_caption_lang = "Idioma: "
+wnd_opt_btn_caption_sel_lang = "Idioma"
+wnd_opt_btn_caption_resolution = "Resolución: "
+wnd_opt_btn_caption_window_mode = "Modo de Pantalla: "
+wnd_opt_cb_vsync = "SincV"
+wnd_opt_cb_caption_screen_prop = "Proporcionar a Pantalla"
+wnd_opt_cb_pause_unfocused = "Pausar el juego cuando no esté en foco"
+wnd_opt_tip_window_mode_unavailable = "Para cambiar a modo ventana, primero debe elegir una resolución menor."
+wnd_opt_tip_proportional_scalling = "Esto arregla la relación de aspecto en algunos dispositivos"
+wnd_opt_tip_vsync = "Activa la sincronización vertical. Desactiva esta opción si experimentas lag en el movimiento del ratón."
+wnd_opt_tip_pause_unfocused = "Pausa el juego cuando la ventana no está en foco"
+
+wnd_opt_mode_title = "Pantalla"
+wnd_opt_mode_fullscreen = "Pantalla Completa"
+wnd_opt_mode_window = "Modo Ventana"
+wnd_opt_mode_borderless = "Modo Ventana sin bordes"
+under_construction = "Proximamente."
+
+wnd_res_title = "RESOLUCIÓN DEL JUEGO"
+wnd_res_caption_available_res = "Resoluciones disponibles"
+wnd_res_suggested = "\^30FF30suggested\^^"
+wnd_res_unadvised = "\^FFC000not advised\^^"
+wnd_res_show_all = "Mostrar todas"
+wnd_res_confirm_title = "CONFIRMAR OPCIONES DE VIDEO"
+wnd_res_confirm_question = "¿Quieres conservar estas opciones de video?"
+wnd_res_reverting_beg = "Volver a las opciones de video anterior"
+wnd_res_reverting_end = "segundos."
+
+wnd_lang_title = "SELECCIONAR IDIOMA"
+
+wnd_feedback_agr_title = "Estadisticas de juego"
+wnd_feedback_agr_accept = "Aceptar"
+wnd_feedback_agr_deny = "Denegar"
+wnd_feedback_agr_text = "¿Le gustaría ayudarnos a depurar y equilibrar el juego enviando estadísticas de juego a nuestro servidor?\nEsto nos ayudaría mucho. ¡Gracias!"
+
+wnd_langs_title = "IDIOMAS"
+wnd_langs_btn_more = "Más Idiomas"
+wnd_langs_confirm_title = "Confirmar cambio de idioma"
+wnd_langs_confirm_msg = "Para completar el cambio, debes reinicar el juego\n¿Quieres aceptar las opciones y reiniciar el juego?"
+
+############################ Profile Manager ##############################
+
+wnd_prof_title_mng = "GESTIONAR PERFILES"
+wnd_prof_title_new = "NUEVO PERFIL"
+wnd_prof_title_new_beta = "NUEVO PERFIL MODO BETA"
+wnd_prof_title_ren = "RENOMBRAR PERFIL"
+wnd_prof_btn_new = "Crear nuevo perfil"
+wnd_prof_btn_rename = "Renombrar perfil"
+wnd_prof_btn_del = "Borrar perfil"
+wnd_prof_lbl_info = "Selecciona el perfil que quieres usar."
+wnd_prof_msg_new = "Ingresa un nombre único para crear un nuevo perfil"
+wnd_prof_msg_new_beta = "Ingresa un nombre único para crear un nuevo perfil modo beta"
+wnd_prof_msg_rename = "Ingresa un nuevo y único nombre para este perfil"
+wnd_prof_msg_name_empty = "El nombre debe tener al menos 1 caracter"
+wnd_prof_msg_name_too_long = "El nombre a superado el tamaño máximo permitido"
+wnd_prof_msg_exists = "Este parfil ya existe"
+wnd_prof_msgbox_confirm_delete_title = "Confirmar eliminación"
+wnd_prof_msgbox_confirm_delete_msg = "¿Estas seguro que quieres borrar el perfil seleccionado?"
+
+wnd_betaprof_title = "PERFILES MODO BETA"
+wnd_betaprof_msg = "Para jugar a la versión Beta del juego, necesitas cambiar a un perfil especial"
+wnd_betaprof_btn_change = "Cambiar perfil"
+wnd_betaprof_btn_create = "Crear nuevo perfil modo Beta"
+
+wnd_nobeta_title = "MODO BETA NO DISPONIBLE"
+wnd_nobeta_msg = "Disculpanos pero no puedes iniciar \1 Modo Beta sin conexión a internet."
+
+wnd_betawarn_title = "ADVERTENCIA DEL BETA"
+wnd_betawarn_msg = "ten en cuenta que jugar en el modo Beta involucra envíar datos del juego a nuestros servidores, los datos serán utilizados para analizar el modo de juego y arreglos de fallos. Información personal o datos sensibles no son recolectados."
+
+wnd_share_avatar = "Compartir avatar"
+wnd_share_death = "Compartir muerte"
+share_facebook = "Facebook"
+share_twitter = "Twitter"
+share_reddit = "Reddit"
+
+############################ Languages ##############################
+
+##Default bitmap font used by the game
+lang_en = "Inglés"
+lang_en_us = "Inglés (US)"
+lang_cs = "checo"
+lang_de = "Alemán"
+lang_pl = "Polaco"
+lang_sv = "Sueco"
+lang_sw = "Swahili"
+lang_es = "Español"
+lang_pt = "Portugués"
+lang_pt_br = "Portugués Brasileño"
+lang_no = "Noruego"
+lang_it = "Italiano"
+lang_fi = "Finlandés"
+lang_nl = "Holandés"
+lang_da = "Danés"
+lang_fr = "Francés"
+lang_hu = "Húngaro"
+lang_tr = "Turco"
+
+## Special megafont that covers thousands of characters and hundreds of languages
+## Use with care and check in game if everything is OK
+lang_af = "Africaans"
+lang_be = "Bielorruso"
+lang_bg = "Búlgaro"
+lang_ab = "Abjasio"
+lang_lv = "Letón"
+lang_lt = "Lituano"
+lang_uk = "Ucranio"
+lang_vi = "Vietnamita"
+lang_ku = "Kurdo"
+lang_el = "Griego"
+lang_id = "Indonesio"
+lang_eo = "Esperanto"
+lang_fil ="Filipino"
+lang_ko = "Coreano"
+lang_th = "Tailandés"
+lang_ru = "Ruso"
+lang_zh = "Chino (Simplificado)"
+lang_ja = "Japonés"
+
+############################ Main Menu ##############################
+
+mmenu_awards = "Ver Premios"
+mmenu_awards_ttip = "Haz click para ver los primeros de este perfil"
+mmenu_profile = "Cambiar perfil"
+mmenu_options = "Opciones"
+mmenu_options_ttip = "Haz click para administrar los productos R2G"
+mmenu_credits = "Creditos"
+mmenu_update = "Productos"
+mmenu_website = "Visitar Sitio Web"
+mmenu_website_ttip = "Abrir sitio Web de R2G en un buscador externo"
+mmenu_website_offline_ttip="Sin conexión"
+mmenu_key = "Activar Clave"
+mmenu_what_is = "¿Qué es R2G?"
+mmenu_changelog = "Cambios"
+mmenu_sandbox = "Pop-up Sandbox"
+mmenu_sandbox_ttip = "Aprende acerca de estas increibles características en producción"
+mmenu_exit = "Salir"
+menu_updates_available_label = "Actualizaciones disponibles"
+menu_up_to_date_label = "Actualizar"
+
+rank_menu_text = "Nivel de Ranking: \1"
+rank_holder = "\s0 \1"
+
+menu_button_unava = "Catacteristicas no disponibles en esta versión"
+
+msg_sorry = "Perdón"
+msg_not_yet_impl = "Esta caracteristica no está implementada aún. Mantente atento."
+
+showLang = "Mostrar Idiomas"
+label_installing_prod = "Instalar \1.\nSelecciona idioma y contenido adicional."
+btnClose = "Cerrar"
+
+prod_list_button_disable = "Desactivar"
+prod_list_button_enable = "Activar"
+
+prod_list_status_disabled = "\^D3D3D3Disabled\^^"
+prod_list_status_uptodate = "\^D3D3D3Up-to date\^^"
+
+wnd_credits_title = "Creditos"
+prod_changelog_btn = "Cambios"
+
+
+wnd_manage_game = "Opciones del Juego"
+btn_replay_intro = "Reproducir Intro"
+btn_config_prod = "Configurar"
+btn_uninstall = "Desintalar"
+btn_update_in_options = "Actualizar"
+btn_read_beta_notes = "Leer notas del Beta"
+btn_prod_about = "Acerca del juego"
+lbl_game_mnager_not_installed = "\^FF0000Game not installed\^^"
+btn_prod_unlock_full_beta = "Desbloquear todo el Beta"
+btn_prod_play = "jugar"
+btn_prod_install_demo = "Instala la versión Demo"
+btn_prod_unlock = "Únete al Acesso Anticipado"
+btn_demo_play = "Jugar Demo"
+btn_demo_tip_opens_in_browser = "Abrir sitio web en el buscador"
+btn_prod_join_ea = "Desbloquear la versión completa"
+
+prod_configure_single_wnd_label = "Configurar juego"
+lbl_configure_single_product = "Abajo puedes seleccionar el idioma e instalar/desintalar componentes para \1"
+
+
+################################################## Message Boxes ############################################
+
+msg_tit_info = "Información importante"
+msg_dung_recreated = "La mazmorra que has ingresado ha sido regenerada. La causa puede ser cambios desde el último parche o archivos corruptos o incompletos. No tienes que hacer nada. ¡Que tengas un buen juego!"
+msg_corrupt_save = "Los archivos guardados están dañados, por lo que se ha restaurado la versión anterior. Si pudiera comprimir y enviar el contenido de la carpeta de guardado a support@thingtrunk.com, nos ayudaría mucho a solucionar el problema. Solo ingresa %AppData%/\1_\2 en el explorador de archivos o corre Window (Mantén Win + R).\n\n¡Gracias por tu ayuda y ¡perdón por los inconvenientes!\nThing Trunk Team"
+msg_corrupt_files = "Parece que los archivos del juego están dañados o incompletos. \nVuelva a instalar el juego o verifique la integridad de la memoria caché del juego en las propiedades del juego Steam. Si esto no resuelve el problema, póngase en contacto con nosotros en support@thingtrunk.com\n\n¡Gracias por tu ayuda y perdón por los inconvenientes!\nThing Trunk Team"
+
+## DEMO
+mbox_game_launch_error_title = "No se puede iniciar el juego"
+mbox_game_launch_error_msg = "Al parece ya estas jugando la versión completa del juego en este perfil. Para jugar al demo, por favor crea un nuevo perfil y seleecionalo (Con el botón en la esquina derecha, abajo)."
+
+################################################## Survey ############################################
+
+btn_survey_show = "Encuesta R2G"
+btn_survey_hide = "Ocultar"
+
+mbox_survey_title = "Return 2 Games"
+mbox_survey_text = "¿Te gustaría ocupar un minuto para responder una encuesta?"
+mbox_survey_accept = "Encuesta"
+mbox_survey_never = "Nunca"
+mbox_survey_not_now = "Ahora no"
+mbox_survey_desert_text = "¿Podrías decirnos por qué estás saliendo del juego?"
+
+# FEEDBACK
+feedback = "FEEDBACK"
+feedback_no_internet = "Estás desconectado. Asegurate de estar conectado a internet para enviarnos el feedback."
+survey = "ENCUESTA"
+survey_no_internet = "Estás desconectado. Asegurate de estar conectado a internet para enviarnos el feedback."
+
+##################################### SHARE / Recommend #####################################
+
+share_window_title = "Compartir"
+share_window_note ="Recomendar R2G: Libro de Demonios a tus amigos a través de estos servicios:"
+share_window_facebook = "Facebook"
+share_window_twitter = "Twitter"
+share_window_reddit = "Reddit"
+share_window_email = "E-mail"
+
+recommend_button_label = "Recomendar"
+recommend_button_ttip = "Recomendar R2G: Libro de Demonios a tus amigos en Twitter, Facebook, Reddit o por Email."
+
+# Supporters acknowledgement
+supporter_ack_title = "Gracias"
+supporter_ack_text = "¡Gracias por convertirte en un seguidor oficial de Return 2 Game!\n\nSi desea figurar en la sección de los partidarios de R2G en los Créditos, indique su nombre (o apodo) y su dirección de correo electrónico. Su correo electrónico no se hará público, lo usaremos en caso de que necesitemos ponernos en contacto con usted sobre el nombre enviado. Cada entrada se procesa manualmente, ya que no podemos agregar palabras obscenas o inapropiadas a los créditos - lo siento!\n\nSi tiene alguna pregunta, no dude en ponerse en contacto con nosotros en \^18BDE6support@thingtrunk.com\^^. ¡Gracias!"
+supporter_ack_nick = "Nombre:"
+supporter_ack_email = "E-mail:"
+supporter_ack_send = "Enviar"
+supporter_ack_deny = "No gracias/está listo"
+supporter_ack_postpone = "Después"
+supporter_ack_sent_title = "Enviar"
+supporter_ack_sent_text = "Los datos no se han enviado."
+
+# Twitch
+twitch_login_title = "Iniciar Sesión en Twitch"
+twitch_login_user = "Nombre de Usuario"
+twitch_login_pass = "Contraseña"
+twitch_login_channel = "Canal"
+twitch_login_paste = "Pegar"
+twitch_login_connect = "Conectar"
+twitch_login_user_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_pass_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_channel_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+
+############################################## Names of windows ###########################
+
+msgbox_offline_title = "SIN CONEXIÓN"
+
+wnd_wir2g_title = "QUÉ ES R2G"
+wnd_about_boa = "LIBRO DE ALIENS"
+
+wnd_about_bod = "LIBRO DE DEMONIOS"
+wnd_name_betanotes = "NOTAS DEL BETA"
+wnd_name_changelog = "CAMBIOS"
+wnd_name_sandbox = "SANDBOX"
+
+wnd_name_about = "Acerca de"
+
+score_upcase = "PUNTAJE"
+
+# CHANGELOG
+changelog_title = "Cambios"
+
+
+###############################
+## Achievement window
+###############################
+
+achiev_total_score = "Puntaje Total:"
+achiev_num_to_next_lvl = "\1 más para alcanzar el siguiente nivel"
+achiev_lvl_gold = "Nivel Oro"
+achiev_lvl_silver = "Nivel de Plata"
+achiev_lvl_bronze = "Nivel de Bronce"
+achiev_golden_locase = "dorado"
+achiev_silver_locase = "plata"
+achiev_bronze_locase = "bronce"
+wnd_achiev_title = "PANTALLA DE PREMIOS"
+wnd_achiev_rank_text = "\^FCDA92Rank:\^FFFFFF \1 \s0 \2\^^"
+wnd_achiev_rank_next = "\^FCDA92Next Rank:\^FFFFFF \1 \^FCDA92/\^FFFFFF \2\^^"
+wnd_achiev_rank_progress_tooltip = "\1 puntos necesarios para desbloquear nuevo rango"
+wnd_achieve_chalice_tooltip = "Desbloqueado \1 de \2 \3 logros"
+
+wnd_achieve_badge_stars_label = "\s0\1"
+wnd_achieve_badge_score_label = "\^FCDA92SCORE:\^FFFFFF \1\^^"
+
+wnd_achieve_badge_1_tip = "Corazón de hierro"
+wnd_achieve_badge_2_tip = "Barrida Limpia"
+wnd_achieve_badge_3_tip = "Cuchilla Despiadada"
+wnd_achieve_badge_to_1 = "\^FCDA92\1\^^ más para insignia de bronce"
+wnd_achieve_badge_to_2 = "\^FCDA92\1\^^ más para insignia de plata"
+wnd_achieve_badge_to_3 = "\^FCDA92\1\^^ más para insignia de oro"
+wnd_achieve_badge_stars_tip = "Estrellas recogidas"
+wnd_achieve_badge_score_tip = "Puntuación total del juego"
+
+##################################### Achievements BOOK OF DEMONS #####################################
+
+achiev_0_01_1 = "Emigrar" #Level 1
+achiev_0_01_1_desc = "Desbloquea el flexiscopio de tamaño medio del juego"
+achiev_0_01_2 = "Viaje" #Level 2
+achiev_0_01_2_desc = "Desbloquea el flexiscopio de tamaño grande del juego"
+achiev_0_01_3 = "Odisea" #Level 3
+achiev_0_01_3_desc = "Desbloquea el flexiscopio de tamaño enorme del juego"
+
+achiev_0_02_3 = "Juego de Cuervos"
+achiev_0_02_3_desc = "Los cuervos cantan, el invierno se acerca..."
+
+achiev_0_03_3 = "Capitán Planeta"
+achiev_0_03_3_desc = "Por tus poderes combinados soy Capitán Planeta"
+
+achiev_0_04_3 = "Eeny, meeny, miny, moe"
+achiev_0_04_3_desc = "Barril, barril, Zombi, barril. ¡Barril, barril, zombi, mierda!"
+
+achiev_0_05_3 = "El Alquimista"
+achiev_0_05_3_desc = "¡Sólo 5 ingredientes y el logro podría ser tuyo!"
+
+achiev_0_06_1 = "Coleccionista de Huesos Experto"
+achiev_0_06_1_desc = "Derrota a 10 Esqueletos"
+achiev_0_06_1_max ="10"
+achiev_0_06_2 = "Coleccionista de Huesos Maestro"
+achiev_0_06_2_desc = "Derrota a 100 Esqueletos"
+achiev_0_06_2_max ="100"
+achiev_0_06_3 = "Coleccionista de Huesos Legendario"
+achiev_0_06_3_desc = "Derrota a 1000 Esqueletos"
+achiev_0_06_3_max = "1000"
+
+achiev_0_07_1 = "Exorcista Experto"
+achiev_0_07_1_desc = "Derrota a 10 Demonios"
+achiev_0_07_1_max = "10"
+achiev_0_07_2 = "Exorcista Maestro"
+achiev_0_07_2_desc = "Derrota a 100 Demonios"
+achiev_0_07_2_max = "100"
+achiev_0_07_3 = "Exorcista Legendario"
+achiev_0_07_3_desc = "Derrota a 1000 Demonios"
+achiev_0_07_3_max = "1000"
+
+achiev_0_08_1 = "Exterminador Experto"
+achiev_0_08_1_desc = "Derrota a 10 Arañas"
+achiev_0_08_1_max = "10"
+achiev_0_08_2 = "Exterminador Maestro"
+achiev_0_08_2_desc = "Derrota a 100 Arañas"
+achiev_0_08_2_max = "100"
+achiev_0_08_3 = "Exterminador Legendario"
+achiev_0_08_3_desc = "Derrota a 1000 Arañas"
+achiev_0_08_3_max = "1000"
+
+achiev_0_09_1 = "Caza Fantasmas Experto"
+achiev_0_09_1_desc = "Derrota a 10 Fantasmas"
+achiev_0_09_1_max = "10"
+achiev_0_09_2 = "Caza Fantasmas Maestro"
+achiev_0_09_2_desc = "Derrota a 100 Fantasmas"
+achiev_0_09_2_max = "100"
+achiev_0_09_3 = "Caza Fantasmas Legendario"
+achiev_0_09_3_desc = "Derrota a 1000 Fantasmas"
+achiev_0_09_3_max = "1000"
+
+achiev_0_10_1 = "Sobreviviente Experto"
+achiev_0_10_1_desc = "Derrota a 10 Zombies"
+achiev_0_10_1_max = "10"
+achiev_0_10_2 = "Sobreviviente Maestro"
+achiev_0_10_2_desc = "Derrota a 100 Zombies"
+achiev_0_10_2_max = "100"
+achiev_0_10_3 = "Sobreviviente Legendario"
+achiev_0_10_3_desc = "Derrota a 1000 Zombies"
+achiev_0_10_3_max = "1000"
+
+achiev_0_11_1 = "Pastor Experto"
+achiev_0_11_1_desc = "Derrota a 10 Hombres Cabra"
+achiev_0_11_1_max = "10"
+achiev_0_11_2 = "Pastor Maestro"
+achiev_0_11_2_desc = "Derrota a 100 Hombres Cabra"
+achiev_0_11_2_max = "100"
+achiev_0_11_3 = "Pastor Legendario"
+achiev_0_11_3_desc = "Derrota a 1000 Hombres Cabra"
+achiev_0_11_3_max = "1000"
+
+achiev_0_12_1 = "Escultor Experto"
+achiev_0_12_1_desc = "Derrota a 10 Gárgolas"
+achiev_0_12_1_max = "10"
+achiev_0_12_2 = "Escultor Maestro"
+achiev_0_12_2_desc = "Derrota a 100 Gárgolas"
+achiev_0_12_2_max = "100"
+achiev_0_12_3 = "Escultor Legendario"
+achiev_0_12_3_desc = "Derrota a 1000 Gárgolas"
+achiev_0_12_3_max = "1000"
+
+achiev_0_13_1 = "Rompecorazones"
+achiev_0_13_1_desc = "Destruye 1000 corazones de monstruos en total"
+achiev_0_13_1_max = "1000"
+achiev_0_13_2 = "Quiebracorazones"
+achiev_0_13_2_desc = "Destruye 10000 corazones de monstruos en total"
+achiev_0_13_2_max = "10000"
+achiev_0_13_3 = "Destripacorazones"
+achiev_0_13_3_desc = "Destruye 100000 corazones de monstruos en total"
+achiev_0_13_3_max = "100000"
+
+achiev_0_14_1 = "Sendero al infierno"
+achiev_0_14_1_desc = "Deja 10000 huellas en la mazmorra"
+achiev_0_14_1_max = "10000"
+achiev_0_14_2 = "Camino al infierno"
+achiev_0_14_2_desc = "Deja 100000 huellas en la mazmorra"
+achiev_0_14_2_max = "100000"
+achiev_0_14_3 = "Carretera al infierno"
+achiev_0_14_3_desc = "Deja 1000000 huellas en la mazmorra"
+achiev_0_14_3_max = "1000000"
+
+achiev_0_15_1 = "Armería Completa"
+achiev_0_15_1_desc = "Encuentra todas las Cartas del Guerrero"
+achiev_0_15_1_max = "32"
+achiev_0_15_2 = "Armería Grandiosa"
+achiev_0_15_2_desc = "Mejora todas las Cartas del Guerrero a nivel 2"
+achiev_0_15_2_max = "32"
+achiev_0_15_3 = "Armería Épica"
+achiev_0_15_3_desc = "Mejora todas las Cartas del Guerrero a nivel 3"
+achiev_0_15_3_max = "32"
+
+achiev_0_16_1 = "Librería Completa"
+achiev_0_16_1_desc = "Encuentra todas las Cartas del Mago"
+achiev_0_16_1_max = "32"
+achiev_0_16_2 = "Librería Arcana"
+achiev_0_16_2_desc = "Mejora todas las Cartas del Mago a nivel 2"
+achiev_0_16_2_max = "32"
+achiev_0_16_3 = "Librería Increíble"
+achiev_0_16_3_desc = "Mejora todas las Cartas del Mago a nivel 3"
+achiev_0_16_3_max = "32"
+
+achiev_0_17_1 = "Alijo Completo"
+achiev_0_17_1_desc = "Encuentra todas las Cartas del Pícaro"
+achiev_0_17_1_max = "32"
+achiev_0_17_2 = "Alijo Lujoso"
+achiev_0_17_2_desc = "Mejora todas las Cartas del Pícaro a nivel 2"
+achiev_0_17_2_max = "32"
+achiev_0_17_3 = "Alijo Legendario"
+achiev_0_17_3_desc = "Mejora todas las Cartas del Pícaro a nivel 2"
+achiev_0_17_3_max = "32"
+
+achiev_0_18_1 = "Cocina del infierno"
+achiev_0_18_1_desc = "Derrota al Cocinero con cualquier héroe"
+achiev_0_18_2 = "´Cocina Asesina"
+achiev_0_18_2_desc = "Derrota al Cocinero con un segundo héroe"
+achiev_0_18_3 = "Cocina de Pesadilla"
+achiev_0_18_3_desc = "Derrota al Cocinero con los tres héroes"
+
+achiev_0_19_1 = "Rompiendo el Ritual"
+achiev_0_19_1_desc = "Derrota al Antipapa con cualquier héroe"
+achiev_0_19_2 = "Evitando el sacrilegio"
+achiev_0_19_2_desc = "Derrota al Antipapa con un segundo héroe"
+achiev_0_19_3 = "Terminando la Blasfemia"
+achiev_0_19_3_desc = "Derrota al Antipapa con los tres héroes"
+
+achiev_0_20_1 = "Todos saluden al Nuevo Rey"
+achiev_0_20_1_desc = "Derrona al Archidemonio con cualquier héroe"
+achiev_0_20_2 = "Dos por diversión"
+achiev_0_20_2_desc = "Derrota al Archidemonio con un segundo héroe"
+achiev_0_20_3 = "La tercera es la vencida"
+achiev_0_20_3_desc = "Derrota al Archidemonio con los tres héroes"
+
+achiev_0_21_1 = "¿Quién es el jefe?"
+achiev_0_21_1_desc = "Derrota a 5 jefes monstruos"
+achiev_0_21_1_max = "5"
+achiev_0_21_2 = "No hay jefes alrededor"
+achiev_0_21_2_desc = "Derrota a 50 jefes monstruos"
+achiev_0_21_2_max = "50"
+achiev_0_21_3 = "Tú no eres mi jefe"
+achiev_0_21_3_desc = "Derrota a 500 jefes monstruos"
+achiev_0_21_3_max = "500"
+
+achiev_0_22_1 = "Inter-raptor"
+achiev_0_22_1_desc = "Interrumpe 10 hechizos o habilidades de enemigos"
+achiev_0_22_1_max = "10"
+achiev_0_22_2 = "Inter-raptor evolucionado"
+achiev_0_22_2_desc = "Interrumpe 100 hechizos o habilidades de enemigos"
+achiev_0_22_2_max = "100"
+achiev_0_22_3 = "Inter-raptor Rex"
+achiev_0_22_3_desc = "Interrumpe 500 hechizos o habilidades de enemigos"
+achiev_0_22_3_max = "500"
+
+achiev_0_23_1 = "¡Crash!"
+achiev_0_23_1_desc = "Destruye 100 escudos de enemigos"
+achiev_0_23_1_max = "100"
+achiev_0_23_2 = "¡Smash!"
+achiev_0_23_2_desc = "Destruye 500 escudos de enemigos"
+achiev_0_23_2_max = "500"
+achiev_0_23_3 = "¡Bash!"
+achiev_0_23_3_desc = "Destruye 1000 escudos de enemigos"
+achiev_0_23_3_max = "1000"
+
+achiev_0_24_1 = "Recoge corazones"
+achiev_0_24_1_desc = "Recoge 50 corazones del suelo"
+achiev_0_24_1_max = "50"
+achiev_0_24_2 = "Acapara corazones"
+achiev_0_24_2_desc = "Recoge 500 corazones del suelo"
+achiev_0_24_2_max = "500"
+achiev_0_24_3 = "Segador de órganos"
+achiev_0_24_3_desc = "Recoge 1000 corazones del suelo"
+achiev_0_24_3_max = "1000"
+
+achiev_0_25_1 = "Barrido mágico"
+achiev_0_25_1_desc = "Recoge 50 globos de maná del suelo"
+achiev_0_25_1_max = "50"
+achiev_0_25_2 = "Barrido mistico"
+achiev_0_25_2_desc = "Recoge 500 globos de maná del suelo"
+achiev_0_25_2_max = "500"
+achiev_0_25_3 = "Barrido arcano"
+achiev_0_25_3_desc = "Recoge 1000 globos de maná del suelo"
+achiev_0_25_3_max = "1000"
+
+achiev_0_26_1 = "Rápido y Furioso"
+achiev_0_26_1_desc = "Derrota 100 monstruos en 20 segundos"
+achiev_0_26_1_max = "100"
+achiev_0_26_2 = "Más rápido y más furioso"
+achiev_0_26_2_desc = "Derrota 150 monstruos en 15 segundos"
+achiev_0_26_2_max = "150"
+achiev_0_26_3 = "El más rápido y el más furioso"
+achiev_0_26_3_desc = "Derrota 200 monstruos en 10 segundos"
+achiev_0_26_3_max = "200"
+
+achiev_0_27_1 = "Insignias"
+achiev_0_27_1_desc = "Termina una gran Partida Libre en dificultad Díficil o superior, recibiendo todas las Insignias"
+achiev_0_27_2 = "Insignias, Insignias"
+achiev_0_27_2_desc = "Termina una gran Partida Libre en dificultad Pesadilla o superior, recibiendo todas las Insignias"
+achiev_0_27_3 = "Insignias, Insignias, Insignias"
+achiev_0_27_3_desc = "Termina una gran Partida Libre en dificultad Masacre recibiendo todas las Insignias"
+
+achiev_0_28_1 = "Sólo con una sonrisa"
+achiev_0_28_1_desc = "Termina una Partida Libre de tamaño medio o grande en dificuldad Díficil o superior, sin equipar ninguna carta"
+achiev_0_28_2 = "Traje de cumpleaños"
+achiev_0_28_2_desc = "Termina una Partida Libre de tamaño medio o grande en dificuldad Pesadilla o superior, sin equipar ninguna carta"
+achiev_0_28_3 = "Nudista hardcore"
+achiev_0_28_3_desc = "Termina una Partida Libre de tamaño medio o grande en dificuldad Masacre sin equipar ninguna carta"
+
+achiev_0_29_1 = "Maestro de las misiones"
+achiev_0_29_1_desc = "Domina todas las misiones de nivel 1"
+achiev_0_29_1_max = "3"
+achiev_0_29_2 = "Campeón de las misiones"
+achiev_0_29_2_desc = "Domina todas las misiones de nivel 2"
+achiev_0_29_2_max = "3"
+achiev_0_29_3 = "Genio de las misiones"
+achiev_0_29_3_desc = "Domina todas las misiones de nivel 3"
+achiev_0_29_3_max = "3"
+
+achiev_0_30_1 = "Desafortunado"
+achiev_0_30_1_desc = "Destruye 50 barriles vacíos en la mazmorra"
+achiev_0_30_1_max = "50"
+achiev_0_30_2 = "Salado"
+achiev_0_30_2_desc = "Destruye 500 barriles vacíos en la mazmorra"
+achiev_0_30_2_max = "500"
+achiev_0_30_3 = "Maldito"
+achiev_0_30_3_desc = "Destruye 5000 barriles vacíos en la mazmorra"
+achiev_0_30_3_max = "5000"
+
+achiev_0_31_1 = "Dedos malolientes"
+achiev_0_31_1_desc = "Recoge 10 cacas"
+achiev_0_31_1_max = "10"
+achiev_0_31_2 = "Manos sucias"
+achiev_0_31_2_desc = "Recoge 100 cacas"
+achiev_0_31_2_max = "100"
+achiev_0_31_3 = "Nunca me las volveré a lavar"
+achiev_0_31_3_desc = "Recoge 1000 cacas"
+achiev_0_31_3_max = "1000"
+
+achiev_0_32_1 = "En buenas manos"
+achiev_0_32_1_desc = "Deja que el Curandero te cure 30 veces"
+achiev_0_32_1_max = "30"
+achiev_0_32_2 = "Paciente frecuente"
+achiev_0_32_2_desc = "Deja que el Curandero te cure 100 veces"
+achiev_0_32_2_max = "100"
+achiev_0_32_3 = "Hipocondríaco"
+achiev_0_32_3_desc = "Deja que el Curandero te cure 300 veces"
+achiev_0_32_3_max = "300"
+
+achiev_0_33_1 = "Sopa sabrosa"
+achiev_0_33_1_desc = "Compra cosas del Caldero Mágico por primera vez"
+achiev_0_33_2 = "Brebaje delicioso"
+achiev_0_33_2_desc = "Compra cosas del Caldero Mágico 5 veces"
+achiev_0_33_2_max = "5"
+achiev_0_33_3 = "Estofado exquisito"
+achiev_0_33_3_desc = "Compra cosas del Caldero Mágico 10 veces"
+achiev_0_33_3_max = "10"
+
+achiev_0_34_1 = "Comprador ocasional"
+achiev_0_34_1_desc = "Carga tus cartas 10 veces con los Adivinos"
+achiev_0_34_1_max = "10"
+achiev_0_34_2 = "Cliente frecuente"
+achiev_0_34_2_desc = "Carga tus cartas 50 veces con los Adivinos"
+achiev_0_34_2_max = "50"
+achiev_0_34_3 = "Cliente leal"
+achiev_0_34_3_desc = "Carga tus cartas 100 veces con los Adivinos"
+achiev_0_34_3_max = "100"
+
+achiev_0_35_1 = "Primer enigma"
+achiev_0_35_1_desc = "Identifique su primera tarjeta con el Sabio"
+achiev_0_35_2 = "Envuelto en misterios"
+achiev_0_35_2_desc = "Identificar 20 tarjetas con el Sabio"
+achiev_0_35_2_max = "20"
+achiev_0_35_3 = "Sin más secretos"
+achiev_0_35_3_desc = "Identificar 50 tarjetas con el Sabio"
+achiev_0_35_3_max = "50"
+
+achiev_0_36_1 = "Baraja aleatoria"
+achiev_0_36_1_desc = "Equipa una ranura con una carta 10 veces en total"
+achiev_0_36_1_max = "10"
+achiev_0_36_2 = "Baraja Táctica"
+achiev_0_36_2_desc = "Equipa una ranura con una carta 100 veces en total"
+achiev_0_36_2_max = "100"
+achiev_0_36_3 = "Baraja estratégica"
+achiev_0_36_3_desc = "Equipa una ranura con una carta 500 veces en total"
+achiev_0_36_3_max = "500"
+
+achiev_0_37_1 = "Stayin' Alive"
+achiev_0_37_1_desc = "Termina 5 juegos seguidos sin morir"
+achiev_0_37_1_max = "5"
+achiev_0_37_2 = "Stayin' Alive, stayin' alive"
+achiev_0_37_2_desc = "Termina 10 juegos seguidos sin morir"
+achiev_0_37_2_max = "10"
+achiev_0_37_3 = "A! A! A! A! Stayin' Alive"
+achiev_0_37_3_desc = "Termina 20 juegos seguidos sin morir"
+achiev_0_37_3_max = "20"
+
+achiev_0_38_1 = "Chispa limpiadora"
+achiev_0_38_1_desc = "Quema 30 monstruos hasta que sean cenizas"
+achiev_0_38_1_max = "30"
+achiev_0_38_2 = "Llama limpiadora"
+achiev_0_38_2_desc = "Quema 100 monstruos hasta que sean cenizas"
+achiev_0_38_2_max = "100"
+achiev_0_38_3 = "Fuego purificador"
+achiev_0_38_3_desc = "Quema 300 monstruos hasta que sean cenizas"
+achiev_0_38_3_max = "300"
+
+achiev_0_39_1 = "Rompiendo el hielo"
+achiev_0_39_1_desc = "Derrota 30 monstruos congelados"
+achiev_0_39_1_max = "30"
+achiev_0_39_2 = "Sigue cool"
+achiev_0_39_2_desc = "Derrota 100 monstruos congelados"
+achiev_0_39_2_max = "100"
+achiev_0_39_3 = "Ice ice Baby"
+achiev_0_39_3_desc = "Derrota 300 monstruos congelados"
+achiev_0_39_3_max = "300"
+
+achiev_0_40_1 = "Hiedra venenosa"
+achiev_0_40_1_desc = "Derrota 30 monstruos con veneno"
+achiev_0_40_1_max = "30"
+achiev_0_40_2 = "Araña venenosa"
+achiev_0_40_2_desc = "Derrota 100 monstruos con veneno"
+achiev_0_40_2_max = "100"
+achiev_0_40_3 = "Rey cobra"
+achiev_0_40_3_desc = "Derrota 300 monstruos con veneno"
+achiev_0_40_3_max = "300"
+
+achiev_0_41_1 = "Lo que fácil viene, fácil se va"
+achiev_0_41_1_desc = "Gasta 1000 de oro"
+achiev_0_41_1_max = "1000"
+achiev_0_41_2 = "El dinero no lo es todo"
+achiev_0_41_2_desc = "Gasta 100000 de oro"
+achiev_0_41_2_max = "100000"
+achiev_0_41_3 = "Las riquezas tienen alas"
+achiev_0_41_3_desc = "Gasta 1000000 de oro"
+achiev_0_41_3_max = "1000000"
+
+achiev_0_42_1 = "Pesadilla en la calle Elm"
+achiev_0_42_1_desc = "Desbloquea la dificultad Díficil con todos los héroes"
+achiev_0_42_2 = "Hellraiser"
+achiev_0_42_2_desc = "Desbloquea la dificultad Pesadilla con todos los héroes"
+achiev_0_42_3 = "Masacre en Texas"
+achiev_0_42_3_desc = "Desbloquea la dificultad Masacre con todos los héroes"
+
+achiev_0_43_1 = "Nada más que aprender"
+achiev_0_43_1_desc = "Alcanza el nivel máximo (nivel 50) con cualquier héroe"
+achiev_0_43_2 = "Magnífico duo"
+achiev_0_43_2_desc = "Alcanza el nivel máximo con dos diferentes héroes"
+achiev_0_43_3 = "Tres fantásticos"
+achiev_0_43_3_desc = "Alcanza el nivel máximo con los tres héroes"
+
+achiev_0_44_1 = "Limpiador"
+achiev_0_44_1_desc = "Limpia 5 niveles de mazmorras"
+achiev_0_44_1_max = "5"
+achiev_0_44_2 = "Pedante"
+achiev_0_44_2_desc = "Limpia 50 niveles de mazmorras"
+achiev_0_44_2_max = "50"
+achiev_0_44_3 = "Obsesivo compulsivo"
+achiev_0_44_3_desc = "Limpia 500 niveles de mazmorras"
+achiev_0_44_3_max = "500"
+
+achiev_0_45_1 = "Lento como una tortuga"
+achiev_0_45_1_desc = "Falla 50 veces"
+achiev_0_45_1_max = "50"
+achiev_0_45_2 = "Torpe como un buey"
+achiev_0_45_2_desc = "Falla 500 veces"
+achiev_0_45_2_max = "500"
+achiev_0_45_3 = "Ciego como un murciélago"
+achiev_0_45_3_desc = "Falla 5000 veces"
+achiev_0_45_3_max = "5000"
+
+achiev_0_46_1 = "Comando"
+achiev_0_46_1_desc = "Termina una gran Partida Libre en dificultad Díficil o superior, sin ningún tipo de curación"
+achiev_0_46_2 = "Depredador"
+achiev_0_46_2_desc = "Termina una gran Partida Libre en dificultad Pesadilla o superior, sin ningún tipo de curación"
+achiev_0_46_3 = "Terminator"
+achiev_0_46_3_desc = "Termina una gran Partida Libre en dificultad Masacre sin ningún tipo de curación"
+
+achiev_0_47_1 = "Listo para la acción"
+achiev_0_47_1_desc = "Equipa todas las ranuras de cartas con al menos cartas de nivel 1"
+achiev_0_47_2 = "Listo para la guerra"
+achiev_0_47_2_desc = "Equipa todas las ranuras de cartas con al menos cartas de nivel 2"
+achiev_0_47_3 = "Listo para lo que sea"
+achiev_0_47_3_desc = "Equipa todas las ranuras de cartas con al menos cartas de nivel 3"
+
+achiev_0_48_1 = "División de bronce"
+achiev_0_48_1_desc = "Obtén todos los logros a nivel de bronce en el Libro de los Demonios"
+achiev_0_48_1_max = "55"
+achiev_0_48_2 = "División de Plata"
+achiev_0_48_2_desc = "Obtén todos los demás logros de nivel de plata en el Libro de Demonios"
+achiev_0_48_2_max = "55"
+achiev_0_48_3 = "División Dorada"
+achiev_0_48_3_desc = "Obtén todos los demás logros de nivel de oro en el Libro de Demonios"
+achiev_0_48_3_max = "60"
+
+achiev_0_49_1 = "No mires hacia atrás"
+achiev_0_49_1_desc = "Termina un nivel de mazmorra sin volver en tus pasos"
+achiev_0_49_2 = "Directo al grano"
+achiev_0_49_2_desc = "Termina 3 niveles de mazmorra sin volver en tus pasos"
+achiev_0_49_2_max = "3"
+achiev_0_49_3 = "Siempre adelante"
+achiev_0_49_3_desc = "Termina 5 niveles de mazmorra sin volver en tus pasos"
+achiev_0_49_3_max = "5"
+
+achiev_0_50_1 = "Cargas de munición"
+achiev_0_50_1_desc = "Dispara 100 flechas equipadas (Pícaro solamente)"
+achiev_0_50_1_max = "100"
+achiev_0_50_2 = "Montones de munición"
+achiev_0_50_2_desc = "Dispara 1000 flechas equipadas (Pícaro solamente)"
+achiev_0_50_2_max = "1000"
+achiev_0_50_3 = "Toneladas de munición"
+achiev_0_50_3_desc = "Dispara 10000 flechas equipadas (Pícaro solamente)"
+achiev_0_50_3_max = "10000"
+
+achiev_0_51_1 = "¡Blast!"
+achiev_0_51_1_desc = "Lanza bombas 10 veces (Guerrero solamente)"
+achiev_0_51_1_max = "10"
+achiev_0_51_2 = "¡Boom!"
+achiev_0_51_2_desc = "Lanza bombas 100 veces (Guerrero solamente)"
+achiev_0_51_2_max = "100"
+achiev_0_51_3 = "¡KABOOM!"
+achiev_0_51_3_desc = "Lanza bombas 500 veces (Guerrero solamente)"
+achiev_0_51_3_max = "500"
+
+achiev_0_52_1 = "Amigo"
+achiev_0_52_1_desc = "Invoca al golem 5 veces (Mago solamente)"
+achiev_0_52_1_max = "5"
+achiev_0_52_2 = "Compañero"
+achiev_0_52_2_desc = "Invoca al golem 50 veces (Mago solamente)"
+achiev_0_52_2_max = "50"
+achiev_0_52_3 = "Mejor amigo por siempre"
+achiev_0_52_3_desc = "Invoca al golem 200 veces (Mago solamente)"
+achiev_0_52_3_max = "200"
+
+achiev_0_53_1 = "Recolector"
+achiev_0_53_1_desc = "Recoge 3 estrellas en un solo juego"
+achiev_0_53_2 = "Coleccionista"
+achiev_0_53_2_desc = "Recoge 7 estrellas en un solo juego"
+achiev_0_53_3 = "Acaparador"
+achiev_0_53_3_desc = "Recoge 13 estrellas en un solo juego"
+
+achiev_0_54_1 = "Tick, tock"
+achiev_0_54_1_desc = "Recoge 5 estrellas contrarreloj"
+achiev_0_54_1_max = "5"
+achiev_0_54_2 = "El tiempo es la esencia"
+achiev_0_54_2_desc = "Recoge 50 estrellas contrarreloj"
+achiev_0_54_2_max = "50"
+achiev_0_54_3 = "Tiempo de tu vida"
+achiev_0_54_3_desc = "Recoge 100 estrellas contrarreloj"
+achiev_0_54_3_max = "100"
+
+achiev_0_55_1 = "De miedo"
+achiev_0_55_1_desc = "Asusta a 5 monstruos con una carta Temor (Pícaro solamente)"
+achiev_0_55_2 = "Horripilante"
+achiev_0_55_2_desc = "Asusta a 10 monstruos con una carta Temor (Pícaro solamente)"
+achiev_0_55_3 = "Espantoso"
+achiev_0_55_3_desc = "Asusta a 20 monstruos con una carta Temor (Pícaro solamente)"
+
+achiev_0_56_1 = "Ariete"
+achiev_0_56_1_desc = "Golpea a 3 monstruos con una carta Carga (Guerrero solamente)"
+achiev_0_56_2 = "Con toda la fuerza"
+achiev_0_56_2_desc = "Golpea a 6 monstruos con una carta Carga (Guerrero solamente)"
+achiev_0_56_3 = "Empujalo hasta el límite"
+achiev_0_56_3_desc = "Golpea a 9 monstruos con una carta Carga (Guerrero solamente)"
+
+achiev_0_57_1 = "Ola de silencio"
+achiev_0_57_1_desc = "Disipa 3 hechizos y habilidades con una carta Disipación (Mago solamente)"
+achiev_0_57_2 = "Tormenta de silencio"
+achiev_0_57_2_desc = "Disipa 6 hechizos y habilidades con una carta Disipación (Mago solamente)"
+achiev_0_57_3 = "Tsunami de silencio"
+achiev_0_57_3_desc = "Disipa 9 hechizos y habilidades con una carta Disipación (Mago solamente)"
+
+achiev_0_58_1 = "Pisa fuerte"
+achiev_0_58_1_desc = "Destruye 5 Limo Esporas antes que exploten"
+achiev_0_58_1_max = "5"
+achiev_0_58_2 = "Pisa mejor"
+achiev_0_58_2_desc = "Destruye 50 Limo Esporas antes que exploten"
+achiev_0_58_2_max = "50"
+achiev_0_58_3 = "¡Pisa más fuerte!"
+achiev_0_58_3_desc = "Destruye 500 Limo Esporas antes que exploten"
+achiev_0_58_3_max = "500"
+
+achiev_0_59_1 = "Hasta aquí todo bien"
+achiev_0_59_1_desc = "Termina 5 partidas"
+achiev_0_59_1_max = "5"
+achiev_0_59_2 = "Mejorando"
+achiev_0_59_2_desc = "Termina 25 partidas"
+achiev_0_59_2_max = "25"
+achiev_0_59_3 = "La diversión sigue"
+achiev_0_59_3_desc = "Termina 100 partidas"
+achiev_0_59_3_max = "100"
+
+achiev_0_60_1 = "Calentando"
+achiev_0_60_1_desc = "Desbloquea la cuarta ranura para cartas"
+achiev_0_60_2 = "7 de la suerte"
+achiev_0_60_2_desc = "Desbloquea la 7ma ranura para cartas"
+achiev_0_60_3 = "¡En el centro!"
+achiev_0_60_3_desc = "Desbloquea las 10 ranuras para cartas"
+
+achiev_0_61_1 = "Pequeña charla"
+achiev_0_61_1_desc = "Hablar 5 veces con los aldeanos"
+achiev_0_61_1_max = "5"
+achiev_0_61_2 = "Chica chismosa"
+achiev_0_61_2_desc = "Hablar 25 veces con los aldeanos"
+achiev_0_61_2_max = "25"
+achiev_0_61_3 = "¡Te haces el camino con palabra!"
+achiev_0_61_3_desc = "Hablar 50 veces con los aldeanos"
+achiev_0_61_3_max = "50"
+
+#achiev_0_06_1_max = "10"
+
+
+################################
+## Avatars
+################################
+
+avatar_ttip_researched =  "Avatar en investigación"
+avatar_ttip_current = "Avatar actual"
+avatar_ttip_next = "Avatar siguiente"
+avatar_ttip_click = "\s0Haga clic para cambiar"
+avatar_ttip_click_pad = "Presiona \s0 para cambiar"
+avatar_ttip_unknown = "Avatar desconocido"
+
+avatar_origin = "\^E8BC82Origin:\^^ \1"
+
+avatar_ttip_click_to_assign = "\s0Haz clic para asignar avatar a tu perfil"
+avatar_ttip_click_to_assign_pad = "Presiona \s0 para asignar avatar a tu perfil"
+avatar_ttip_this_is_current = "\s2\^00FF00This is your current profile avatar\^^"
+
+avt_screen_cur_cap = "TAPA DE AVATAR"
+avt_screen_cap_bar_ttip = "La tapa de Avatar aumenta con cada nuevo juego de R2G que tienes"
+avt_screen_cap_bar_no_game_ttip = "La tapa de Avatar no puede aumentar hasta que el próximo juego de R2G sea lanzado."
+
+
+avt_screen_cap_own_game_ttip = "Para desbloquear debes tener \1"
+avt_screen_cap_reveal_ttip = "Para revelar la investigación a cualquier vecino"
+
+avt_screen_cap_cost_ttip = "Costo de investigación: \1"
+avt_screen_research_prg_bar = "Progreso de la investigación: \1%"
+avt_screen_research_prg_ttip = "Para desbloquear este avatar necesitas esta puntuación: \1"
+avatar_click_to_research_ttip = "Presiona \s0 Para seleccionar la investigación"
+avatar_resrch_progress_ttip = "\s3\^00FF00Research in progress\^^"
+btnSendToWebsite = "Compartir"
+btnSendToWebsite_ttip = "Haz clic aquí para compartir tu avatar actual"
+
+wnd_avt_unckd = "¡Avatar desbloqueado!"
+wnd_avt_unckd_set = "Compartir"
+wnd_avt_unckd_close = "OK \s5"
+wnd_avt_unckd_nfo = "¡Has desbloqueado un nuevo avatar! ¿Desea usarlo ahora?"
+wnd_avt_unckd_set_as_cur = "Establecer este avatar como actual \s4"
+
+wnd_avt_rese = "Avatar de la investigación"
+wnd_avt_rese_nfo = "Este avatar será investigado a continuación. No puede cambiarlo una vez que cierre esta ventana."
+wnd_avt_rese_set = "Cambialo"
+wnd_avt_rese_close = "Cerrar"
+
+################################## Player Ranks ##################################
+
+rank_0 = "Ignorante"
+rank_1 = "Principiante"
+rank_2 = "Iniciado"
+rank_3 = "Vagabundo Jr."
+rank_4 = "Vagabundo Experto"
+rank_5 = "Vagabundo"
+rank_6 = "Vagabundo Mayor"
+rank_7 = "Vagabundo Maestro"
+rank_8 = "Peregrino Jr."
+rank_9 = "Peregrino Experto"
+rank_10 = "Peregrino"
+rank_11 = "Peregrino Mayor"
+rank_12 = "Peregrino Maestro"
+rank_13 = "Viajero Jr."
+rank_14 = "Viajero Experto"
+rank_15 = "Viajero"
+rank_16 = "Viajero Mayor"
+rank_17 = "Viajero Maestro"
+rank_18 = "Explorador Jr."
+rank_19 = "Explorador Experto"
+rank_20 = "Explorador"
+rank_21 = "Explorador Mayor"
+rank_22 = "Explorador Maestro"
+rank_23 = "Aventurero Jr."
+rank_24 = "Aventurero Experto"
+rank_25 = "Aventurero"
+rank_26 = "Aventurero Mayor"
+rank_27 = "Aventurero Maestro"
+rank_28 = "Caza-Fortuna Jr."
+rank_29 = "Caza-Fortuna Experto"
+rank_30 = "Caza-Fortuna"
+rank_31 = "Caza-Fortuna Mayor"
+rank_32 = "Caza-Fortuna Maestro"
+rank_33 = "Aprendiz Jr."
+rank_34 = "Aprendiz Experto"
+rank_35 = "Aprendiz"
+rank_36 = "Aprendiz Mayor"
+rank_37 = "Aprendiz Maestro"
+rank_38 = "Erudito Jr."
+rank_39 = "Erudito Experto"
+rank_40 = "Erudito"
+rank_41 = "Erudito Mayor"
+rank_42 = "Erudito Maestro"
+rank_43 = "Tutor Jr."
+rank_44 = "Tutor Experto"
+rank_45 = "Tutor"
+rank_46 = "Tutor Mayor"
+rank_47 = "Tutor Maestro"
+rank_48 = "Mentor Jr."
+rank_49 = "Mentor Experto"
+rank_50 = "Mentor"
+rank_51 = "Mentor Mayor"
+rank_52 = "Mentor Maestro"
+rank_53 = "Sabio Jr."
+rank_54 = "Sabio Experto"
+rank_55 = "Sabio"
+rank_56 = "Sabio Mayor"
+rank_57 = "Sabio Maestro"
+rank_58 = "Filósofo Jr."
+rank_59 = "Filósofo Experto"
+rank_60 = "Filósofo"
+rank_61 = "Filósofo Mayor"
+rank_62 = "Filósofo Maestro"
+rank_63 = "Gurú Jr."
+rank_64 = "Gurú Experto"
+rank_65 = "Gurú"
+rank_66 = "Gurú Mayor"
+rank_67 = "Gurú Maestro"
+rank_68 = "Pionero Jr."
+rank_69 = "Pionero Experto"
+rank_70 = "Pionero"
+rank_71 = "Pionero Mayor"
+rank_72 = "Pionero Maestro"
+rank_73 = "Campeón Jr."
+rank_74 = "Campeón Experto"
+rank_75 = "Campeón"
+rank_76 = "Campeón Mayor"
+rank_77 = "Campeón Maestro"
+rank_78 = "Virtuoso Jr."
+rank_79 = "Virtuoso Experto"
+rank_80 = "Virtuoso"
+rank_81 = "Virtuoso Mayor"
+rank_82 = "Virtuoso Maestro"
+rank_83 = "Conocedor Jr."
+rank_84 = "Conocedor Experto"
+rank_85 = "Conocedor"
+rank_86 = "Conocedor Mayor"
+rank_87 = "Conocedor Maestro"
+
+############################### Avatars and their descriptions ###########################
+
+avatar_1 ="Luciérnaga"
+avatar_2 ="Serpiente"
+avatar_3 ="Leming"
+avatar_4 ="Cuervo Negro"
+avatar_6 ="Rana paranoica"
+avatar_10 ="Erizo"
+avatar_14 ="Pájaro enojado"
+avatar_18 ="El Vagabundo"
+avatar_19 ="Rey Mono"
+avatar_24 ="Cavernícola"
+avatar_26 ="Ingenioso Mistico"
+avatar_28 ="Camarera"
+avatar_29 ="Cazador de brujas"
+avatar_30 ="Curandero"
+avatar_32 ="Ninja Congelado"
+avatar_35 ="El Dragaminas"
+avatar_38 ="Dueño del Restaurante"
+avatar_41 ="Playboy"
+avatar_43 ="Escritor de Tumbas"
+avatar_47 ="Joyero Suertudo"
+avatar_48 ="Adivino"
+avatar_51 ="Sabio"
+avatar_53 ="Príncipe de Persia"
+
+avatar_quote_1 ="¡Esos archivos son impresionantes!"
+avatar_quote_2 ="¡Cuidado, no me gustaría morder mi propia cola!"
+avatar_quote_3 ="Esto parece perfectamente seguro"
+avatar_quote_4 ="Caw, cah"
+avatar_quote_6 ="Siempre revise ambos lados al cruzar la calle."
+avatar_quote_10 ="Siento necesidad de velocidad"
+avatar_quote_14 ="Claro, solo disparame de una honda."
+avatar_quote_18 ="Envuelto bajo el disfraz del hombre, caminará entre los inocentes"
+avatar_quote_19 ="Cuando eres rey, debes vestirte como uno."
+avatar_quote_24 ="Buscar comida... Golpear dinosaurios..."
+avatar_quote_26 ="No, no necesito una mano amiga..."
+avatar_quote_28 ="Olvídate de todos los demonios y ¡festeja!"
+avatar_quote_29 ="Espero que nadie aquí tenga una horca"
+avatar_quote_30 ="Por favor, dígame la naturaleza de su condición médica"
+avatar_quote_32 ="Al menos no hay escorpiones en la nieve"
+avatar_quote_35 ="Cuidado donde pisas"
+avatar_quote_38 ="Tal vez debería comenzar una cena?"
+avatar_quote_41 ="Hablemos de esa vez que conocí a esta señora agente del FBI en el aeropuerto..."
+avatar_quote_43 ="Debería escribir un libro de aventuras"
+avatar_quote_47 ="Sólo necesito dos más de esos..."
+avatar_quote_48 ="Quién necesita una espada de abuelo cuando puedes tener la carta del tarot del emperador"
+avatar_quote_51 ="Escucha un rato y quédate"
+avatar_quote_53 ="¡Antes de comenzar una pelea, debes conseguir una espada!"
+
+product_book2 = "Libro 2"
+product_book3 = "Libro 3"
+product_book4 = "Libro 4"
+product_book5 = "Libro 5"
+product_book6 = "Libro 6"
+product_book7 = "Libro 7"
+
+
+#########################
+## CREDITS
+#########################
+
+cred00_head = "un juego de"
+cred01_head = ""
+cred02_head = "\m0.3"
+cred03_head = "\m1.3con ayuda de"
+cred04_head = "\m1.3Actores de la voz"
+cred05_head = "\m1.3Gracias especiales"
+cred06_head = "\m1.3Seguidores"
+cred07_head = "\m1.3Traducciones"
+cred08_head = "\m1.3Probadores"
+
+cred_desc_0 = "producción, diseño, programación adicional"
+cred_desc_1 = "programación, diseño adicional y escritura"
+cred_desc_2 = "concepto y diseño, dirección de arte y sonido, programación"
+cred_desc_3 = "desarrollo web, gráficos adicionales"
+cred_desc_4 = "programación adicional"
+cred_desc_5 = "programación"
+cred_desc_6 = "pruebas, nivel de contenido"
+cred_desc_7 = "concepto arte, ilustraciones 2D y gráficos"
+cred_desc_8 = "nivel de contenido, secuencias de comandos, sonidos adicionales y gráficos"
+cred_desc_9 = "pr, márketing"
+
+cred_desc_10 = "desarrollo de estilo artístico y prototipos gfx"
+cred_desc_11 = "gráficos"
+cred_desc_12 = "gráficos"
+cred_desc_13 = "música y sonidos"
+cred_desc_14 = "sonidos adicionales"
+cred_desc_15 = "sonidos adicionales"
+cred_desc_16 = "diálogos y textos"
+
+cred_desc_17 = "Sabio"
+cred_desc_18 = "Narrador R2G, Mago"
+cred_desc_19 = "Curandero, cocinero, antipapa"
+cred_desc_20 = "Camarera"
+cred_desc_21 = "Guerrero, Archidemonio"
+cred_desc_22 = "Pícaro, Ángel"
+cred_desc_23 = "Adivino"
+
+cred_desc_24 = "y todos en nuestra impresionante comunidad Early Access en Steam"
+cred_desc_25 = "Polaco - correcciones"
+
+###################################
+## Narration
+###################################
+
+skip_intro = "Mantén para saltar"
+
+############################### Archive Opening ###############################
+
+intro_0 = "En Algún lugar entre el espacio y el tiempo"
+intro_1 = "Existe un lugar: Los Archivos de lo Increible."
+intro_2 = "Una bóveda antigua que guarda las historias y los mitos más asombrosos."
+intro_3 = "Cada libro, es una puerta mágica al papelverso."
+intro_4 = "Déjame llevarte a un viaje a través de las siete obras maestras."
+intro_5 = "¡Es tiempo de Return 2 Games!"
+
+## Timing - DO NOT EDIT unless everything has exploded
+intro_0_in = "10.5"
+intro_0_out = "14.0"
+
+intro_1_in = "14.0"
+intro_1_out = "18.0"
+
+intro_2_in = "18.1"
+intro_2_out = "23.5"
+
+intro_3_in = "23.5"
+intro_3_out = "27.5"
+
+intro_4_in = "28.0"
+intro_4_out = "32.8"
+
+intro_5_in = "32.9"
+intro_5_out = "37"
+
+############################### Book of Demons Opening ###############################
+
+bod_intro_0 = "Ahh. ¡El Libro de Demonios!"
+bod_intro_1 = "Una historia verdaderamente sombría en nuestra colección."
+bod_intro_2 = "No para los débiles de corazón..."
+bod_intro_3 = "Un héroe errante regresa a casa,"
+bod_intro_4 = "Solo para encontrar todo distinto a cómo lo recordaba."
+bod_intro_5 = "Un horrendo mal surgió de las profundidades del infierno,"
+bod_intro_6 = "devorando la valentía y envenenando a los vivos con desesperación."
+bod_intro_7 = "Porque en las profundidades de un lugar una vez santo,"
+bod_intro_8 = "un ritual oscuro se concluye."
+bod_intro_9 = "Arrrrrrrrr hrhrhrh!"
+bod_intro_10 = "El Mal final ha despertado."
+bod_intro_11 = "¡Aventuras!"
+bod_intro_12 = "¡Oscuridad!"
+bod_intro_13 = "¡Horrores!"
+bod_intro_14 = "Abajo todo esto te espera."
+bod_intro_15 = "¡Buena Suerte!"
+
+## Timing - DO NOT EDIT unless everything has exploded
+bod_intro_0_in = "3"
+bod_intro_0_out = "5.5"
+
+bod_intro_1_in = "5.5"
+bod_intro_1_out = "8"
+
+bod_intro_2_in = "9"
+bod_intro_2_out = "11"
+
+bod_intro_3_in = "13"
+bod_intro_3_out = "15.4"
+
+bod_intro_4_in = "16"
+bod_intro_4_out = "20"
+
+bod_intro_5_in = "22"
+bod_intro_5_out = "25.5"
+
+bod_intro_6_in = "25.5"
+bod_intro_6_out = "29"
+
+bod_intro_7_in = "31"
+bod_intro_7_out = "34"
+
+bod_intro_8_in = "34"
+bod_intro_8_out = "37"
+
+bod_intro_9_in = "42"
+bod_intro_9_out = "44"
+
+bod_intro_10_in = "44"
+bod_intro_10_out = "46"
+
+bod_intro_11_in = "48"
+bod_intro_11_out = "50"
+
+bod_intro_12_in = "51.7"
+bod_intro_12_out = "53.5"
+
+bod_intro_13_in = "55.6 "
+bod_intro_13_out = "58"
+
+bod_intro_14_in = "63.7"
+bod_intro_14_out = "66.5"
+
+bod_intro_15_in = "72"
+bod_intro_15_out = "75"
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1. Pedestals ✔
+## 2. Options ✔
+## 3. Profile Manager ✔
+## 4. Languages ✔
+## 5. Main Menu ✔
+## 6. Message Boxes ✔
+## 7. Survey ✔
+## 8. SHARE / Recommend ✔
+## 9. Names of windows ✔
+## 10. Achievement window ✔
+## 11. Achievements BOOK OF DEMONS ✔
+## 12. Avatars ✔
+## 13. Player Ranks ✔
+## 14. Avatars and their descriptions ✔
+## 15. CREDITS ✔
+## 16. Narration ✔
+## 17. Archive Opening ✔
+## 18. Book of Demons Opening ✔
+
+
+######################## !!! DO NOT CHANGE !!! #########################
+test_font = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789\nFrench\nÙÛÜŸÀÂÆÇÉÈÊËÏÎÔŒ\nùûüÿàâæçéèêëïîôœ\nGerman\nÄÖÜẞ\näöüß\nItalian\nÀÈÉÌÒÓÙ\nàèéìòóù\nPolish\nĄĆĘŁŃÓŚŹŻ\nąćęłńóśźż\nPortuguese\nÃÁÀÂÇÉÊÍÕÓÔÚÜ\nãáàâçéêíõóôúü\nSpanish\nÁÉÍÑÓÚÜ\náéíñóúü\nSPECIALS\n!\"#$%&'()*+,-./:;<=>?@[]^_`{}~¡©®¿\nCzech\nÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ\núůýžáčďéěíňóřšť\nDutch\nÉËÏÓÖÜ\néëïóöü\nSwedish\nÄÅÉÖ\näåéö\nDanish\nÅÆÉØ\nåæéø\nFinnish\nÄÅÖ\näåö\nHungarian\nÁÉÍÖÓŐÜÚŰ\náéíöóőüúű\nNorwegian\nÅÆÂÉÈÊØÓÒÔ\nåæâéèêøóòô\n\nTurkish\nÇĞIİÖŞÜ\nçğıİöşü"
+
+welcome_player = "Bienvenido \1"
