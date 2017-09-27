@@ -33,7 +33,7 @@ player = "Jugador"
 
 ############################ Pedestals ##############################
 
-lclick = "\s0 click izq. para empezar"
+lclick = "\s0 clic izq. para empezar"
 lclick_pad = "presiona \s0 para empezar"
 rclick = "\s1 click der. para ir a opciones"
 rclick_pad = "presiona \s1 para ir a opciones"
