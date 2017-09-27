@@ -1,0 +1,11 @@
+
+*.pac
+*.txt
+*.xml
+*.dll
+*.pak
+*.exe
+*.dat
+*.bin
+tools/StringTableAnalyzer/charset.utf8
+lang_en/launcher.utf8

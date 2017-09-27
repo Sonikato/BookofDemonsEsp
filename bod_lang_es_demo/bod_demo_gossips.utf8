@@ -21,7 +21,7 @@ wnd_gossips_overview_title = "Do you have any particular topic in mind?"
 
 ###################### Gossips ###########################
 
-gtit_0 = "Welcome" ## Barmaid
+gtit_0 = "Bienvenido" ## Barmaid
 gtxt_0_0 = "    Is that really you? I'm so happy to see you after all this time! It seems like it's been ages since you left our town. I just wish we weren't meeting under such dire circumstances."
 gtxt_0_1 = "    Back then it was peaceful, but now the town is disturbed by a demonic presence that's spreading throughout the land. Most of our friends are gone - some people fled, some took their own lives. Some have just vanished. Those who stayed have lost their minds or are too frightened to leave their houses."
 gtxt_0_2 = "    I'm doing my best to keep everyone's spirits up, but the truth is we won't survive for long without help. Just don't tell anybody I said that."

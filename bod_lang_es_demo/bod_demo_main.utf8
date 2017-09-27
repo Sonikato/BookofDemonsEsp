@@ -502,7 +502,7 @@ rog_sign_card_tooltip_2 = "Your keen senses allow you to find weak spots in shie
 ################################
 
 # NPC Close-ups
-npc_btn_previous = "Previous"
+npc_btn_previous = "Previo"
 npc_btn_next = "Next"
 npc_btn_back = "Back"
 npc_btn_close = "Close"
