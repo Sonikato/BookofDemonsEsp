@@ -27,15 +27,15 @@ gtxt_0_1 = "    Back then it was peaceful, but now the town is disturbed by a de
 gtxt_0_2 = "    I'm doing my best to keep everyone's spirits up, but the truth is we won't survive for long without help. Just don't tell anybody I said that."
 gtxt_0_3 = "    You must have lots of questions, but I don't have many answers. Talk to the Sage if you want to know more. He might be able to help you."
 
-gtit_1 = "Darkness" ## Sage
+gtit_1 = "Oscuridad" ## Sage
 gtxt_1_0 = "    Your arrival brings hope to my old heart. There's no better way to forge one's skill than by travelling - I should know! - but I beg you not to leave. We need you here! Dark things lurk in the depths beneath the old cathedral. I've seen plenty of evil in my travels, but this makes my journey through the Dragon Wastes look like a walk in a park."
 gtxt_1_1 = "    Everything started with the disappearance of our bishop. I fear he has been dragged into the catacombs deep below the church. I do not know what caused such desecration of that holy place. That enigma is yet to be solved, and you are the only one who can do it! Just remember to be careful. Few who have ventured into the dark made their way back, and those who did were no longer alive."
 
-gtit_2 = "Introduction" ## Healer
+gtit_2 = "Introducción" ## Healer
 gtxt_2_0 = "    Thank the heavens for hearing my prayers and sending us a champion of light! I shall aid you in your struggle to the best of my limited abilities. Come to me should you need remedies for ailments of body or soul. Yet, you should remember it is no small task to face the legions of evil. You must shield yourself with faith! "
 gtxt_2_1 = "    There is no better protection against darkness. If you allow yourself to falter you shall become defenseless and even risk losing your immortal soul. I saw what happened to those who went astray in their spiritual vocation and... No, it's better not to dwell on such things lest darkness overcome us."
 
-gtit_3 = "Presentation" ## Fortune Teller
+gtit_3 = "Presentación" ## Fortune Teller
 gtxt_3_0 = "    Greetings, traveller! People call me the Fortune Teller. I'm pleased to see there are souls courageous enough to visit a place like this and stay. In truth, I came here recently myself, as I had to leave the royal capital."
 gtxt_3_1 = "    I am certain you have already heard about me and my excellent skills from the lovely Barmaid I'm tutoring. Believe me when I say you will find my craft most useful in your adventures. Feel free to talk to me should you need any assistance."
 gtxt_3_2 = "    The townsfolk are good but simple people, and know little about the arcane. That Sage may be an exception, but his wit - not to mention his social skills - are clearly dulled by age. We're all lucky that cranky old men tend to be harmless."
