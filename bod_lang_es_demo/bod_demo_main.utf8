@@ -385,7 +385,7 @@ char_slot_close = "Cerrar"
 char_slot_unused = "Ranura vacía"
 char_slot_title = "Ranura de \1 seleccionada"
 char_slot_rem_title = "Borrar personaje"
-char_slot_rem_bod = "Are you sure you want to permanently delete that character?"
+char_slot_rem_bod = "¿Estas seguro que quieres eliminar el personaje permanentemente??"
 
 #back_to_menu = "Back To The Archive" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
 enter_town = "Entrar al Pueblo"
@@ -2829,8 +2829,8 @@ press_description = "Welcome to Book of Demons Press Build!\m1.8Please remember 
 ## 2. Dialog Boxes ✔
 ## 3. Controls in Settings ✔
 ## 4. Name "generator" ✔
-## 5. Slot/Character Selection Screen X
-## 6. Selection Screen - create new character X
+## 5. Slot/Character Selection Screen ✔
+## 6. Selection Screen - create new character ✔
 ## 7. New characters unlocked window X
 ## 8. Class descriptions X
 ## 9. Town X
