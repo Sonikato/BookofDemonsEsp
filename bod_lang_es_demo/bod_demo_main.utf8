@@ -456,27 +456,27 @@ char_daredevil_info = "Cuando mueres en el modo \^FFFFFFTemerario\^^ - mueres, y
 
 wnd_char_unlock_title = "Nuevos Personajes"
 
-wnd_char_unlock_congrat_rogue = "Congratulations! By reaching level 5 you have unlocked\n2 new playable character classes!"
+wnd_char_unlock_congrat_rogue = "¡Felicitaciones! Por alcanzar el nivel 5 has desbloqueado\n¡2 nuevas clases jugables!"
 wnd_char_unlock_visit_rogue = "Visita la pantalla de selección de personajes para verlos"
 wnd_char_unlock_check_rogue = "De ahora en adelante, puedes jugar como uno de ellos."
 
-wnd_char_unlock_congrat = "Congratulations! By reaching level 5 you have unlocked\nnew playable character class: \^fcda92Mage\^^"
-wnd_char_unlock_visit = "Visit character selection screen to check him out\n(Rogue coming soon)"
-wnd_char_unlock_check = "From now on, you can play as a Mage\n(Rogue coming soon)"
+wnd_char_unlock_congrat = "¡Felicitaciones! Por alcanzar el nivel 5 has desbloqueado\nNueva clase jugable: \^fcda92Mago\^^"
+wnd_char_unlock_visit = "Visita la pantalla de selección de personajes para verlos\n(Próximamente el Pícaro)"
+wnd_char_unlock_check = "Desde este momento, puedes jugar con el Mago\n(Próximamente el Pícaro)"
 
 wnd_char_unlock_rogue = "\sz> Pícaro"
-wnd_char_unlock_mage = "\sz? Magó"
+wnd_char_unlock_mage = "\sz? Mago"
 
 ############################# Class descriptions ###########################
 
 # Warrior
 war_description = "Un poderoso aventurero que cree en el poder bruto del acero. Experto en todo tipo de armas y armaduras. A veces se puede detectar un poco de locura en sus ojos cuando está cargandose un gran grupo de monstruos."
 # Dagger
-war_sign_card_tooltip_0 = "Grants an extra attack against additional opponent in range"
+war_sign_card_tooltip_0 = "Concede un ataque adicional contra otro oponente dentro del rango"
 # poison bomb
-war_sign_card_tooltip_1 = "Throws toxic bombs around you that poison monsters damaging them over time"
+war_sign_card_tooltip_1 = "Lanza bombas tóxicas alrededor de ti que envenenan monstruos dañándolas con el tiempo"
 # Mighty Blow
-war_sign_card_tooltip_2 = "Deals massive damage and stuns a single enemy"
+war_sign_card_tooltip_2 = "Hace daño masivo y aturde a un solo enemigo"
 
 #Mage
 mag_description = "A powerful mystic proficient in all kinds of magic. Wearing only a robe he leaves direct face-to-face combat to his summoned minions, himself bringing devastation from a safe distance."
@@ -2831,7 +2831,7 @@ press_description = "Welcome to Book of Demons Press Build!\m1.8Please remember 
 ## 4. Name "generator" ✔
 ## 5. Slot/Character Selection Screen ✔
 ## 6. Selection Screen - create new character ✔
-## 7. New characters unlocked window X
+## 7. New characters unlocked window ✔
 ## 8. Class descriptions X
 ## 9. Town X
 ## 10. Charging cards (Fortune Teller) X
