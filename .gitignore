@@ -12,3 +12,5 @@ lang_en/launcher.utf8
 bod_lang_en_demo/bod_demo_main.utf8
 bod_lang_en_demo/bod_demo_cards.utf8
 bod_lang_en_demo/bod_demo_gossips.utf8
+*.png
+*.lnk

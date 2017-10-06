@@ -479,7 +479,7 @@ war_sign_card_tooltip_1 = "Lanza bombas tóxicas alrededor de ti que envenenan m
 war_sign_card_tooltip_2 = "Hace daño masivo y aturde a un solo enemigo"
 
 #Mage
-mag_description = "A powerful mystic proficient in all kinds of magic. Wearing only a robe he leaves direct face-to-face combat to his summoned minions, himself bringing devastation from a safe distance."
+mag_description = "Un poderoso místico experto en todo tipo de magia. Llevando sólo una bata deja el combate cara a cara directo a sus secuaces invocados, él trayendo la devastación de una distancia segura."
 # Book of Ice
 mag_sign_card_tooltip_0 = "Boosts your spells with ice magic, slowing and freezing your opponents"
 # Hourglass
@@ -1408,11 +1408,11 @@ direction_stairs_clean_ttip = "\^00FF00Level clear\^^, use \s9 to exit now"
 
 lbar_char_but = "Show character stats pane"
 lbar_char_but2 = "Keyboard shortcut: \^ffcc00\1\^^"
-lbar_char_but2_pad = "Press \se to open"
+lbar_char_but2_pad = "Press \sz: to open"
 
 lbar_cards_but = "Show character cards pane"
 lbar_cards_but2 = "Keyboard shortcut: \^ffcc00\1\^^"
-lbar_cards_but2_pad = "Press \sf to open"
+lbar_cards_but2_pad = "Press \sz; to open"
 
 ## Counters
 gold_count_ttip = "Character's gold"
