@@ -566,8 +566,8 @@ npc_barmaid_cauldron_prize_tip_bronze = "\^FFFFFFPremio de Bronce\^^"
 npc_barmaid_cauldron_prize_tip_silver = "\^FFFFFFPremio de Plata\^^, contiene 3 premios de bronce"
 npc_barmaid_cauldron_prize_tip_gold = "\^FFFFFFPremio de oro\^^, contiene 3 premios de plata y 9 de bronce"
 npc_barmaid_key_ttip_not_enough_gold = "Necesitas más oro para comprar esto."
-npc_barmaid_key_ttip_buy = "Buy 1 Quest Key (You have \1)."
-npc_barmaid_key_ttip_locked = "This option is not yet available"
+npc_barmaid_key_ttip_buy = "Comprar 1 Llave de Búsqueda (Tienes \1)."
+npc_barmaid_key_ttip_locked = "Esta opción no está disponible"
 
 # Sage
 npc_name_2 = "Sage"
