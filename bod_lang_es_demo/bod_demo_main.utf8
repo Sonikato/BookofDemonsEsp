@@ -624,11 +624,11 @@ npc_gypsy_upgrade_tip_ready = "Click to upgrade this card"
 npc_gypsy_upgrade_tip_ready_pad = "Press to upgrade this card"
 npc_gypsy_upgrade_downgrade_btn = "Downgrade"
 npc_gypsy_upgrade_downgrade_tip = "Downgrade the card and retrieve runes"
-npc_gypsy_upgrade_fuse_tip = "Fuse runes"
+npc_gypsy_upgrade_fuse_tip = "Fusionar runas"
 
 npc_gypsy_charge_tip = "Recharge your item cards"
 
-npc_gypsy_fuse_fuse = "Fuse"
+npc_gypsy_fuse_fuse = "Fusionar"
 npc_gypsy_fuse_not_ready = "Fill both slots below with runic cards to fuse them"
 npc_gypsy_fuse_no_gold = "You don't have enough gold to fuse runic cards of this level"
 npc_gypsy_fuse_active = "Click to fuse cards below into a higher level runic card (\^FCDA92\1\^^)" #FCDA92
@@ -2779,38 +2779,38 @@ boss_10703_name = "Sello Demoníaco Guardián"
 
 #Evil Player Characters Bosses
 
-boss_10801_name = "Ghost from the Past"
-boss_10802_name = "Ghost from the Past"
-boss_10803_name = "Ghost from the Past"
-boss_10804_name = "Ghost from the Past"
-boss_10805_name = "Ghost from the Past"
-boss_10806_name = "Ghost from the Past"
-boss_10807_name = "Ghost from the Past"
-boss_10808_name = "Ghost from the Past"
-boss_10809_name = "Ghost from the Past"
-boss_10810_name = "Ghost from the Past"
+boss_10801_name = "Fantasma del pasado"
+boss_10802_name = "Fantasma del pasado"
+boss_10803_name = "Fantasma del pasado"
+boss_10804_name = "Fantasma del pasado"
+boss_10805_name = "Fantasma del pasado"
+boss_10806_name = "Fantasma del pasado"
+boss_10807_name = "Fantasma del pasado"
+boss_10808_name = "Fantasma del pasado"
+boss_10809_name = "Fantasma del pasado"
+boss_10810_name = "Fantasma del pasado"
 
-boss_10901_name = "Ghost from the Past"
-boss_10902_name = "Ghost from the Past"
-boss_10903_name = "Ghost from the Past"
-boss_10904_name = "Ghost from the Past"
-boss_10905_name = "Ghost from the Past"
-boss_10906_name = "Ghost from the Past"
-boss_10907_name = "Ghost from the Past"
-boss_10908_name = "Ghost from the Past"
-boss_10909_name = "Ghost from the Past"
-boss_10910_name = "Ghost from the Past"
+boss_10901_name = "Fantasma del pasado"
+boss_10902_name = "Fantasma del pasado"
+boss_10903_name = "Fantasma del pasado"
+boss_10904_name = "Fantasma del pasado"
+boss_10905_name = "Fantasma del pasado"
+boss_10906_name = "Fantasma del pasado"
+boss_10907_name = "Fantasma del pasado"
+boss_10908_name = "Fantasma del pasado"
+boss_10909_name = "Fantasma del pasado"
+boss_10910_name = "Fantasma del pasado"
 
-boss_11001_name = "Ghost from the Past"
-boss_11002_name = "Ghost from the Past"
-boss_11003_name = "Ghost from the Past"
-boss_11004_name = "Ghost from the Past"
-boss_11005_name = "Ghost from the Past"
-boss_11006_name = "Ghost from the Past"
-boss_11007_name = "Ghost from the Past"
-boss_11008_name = "Ghost from the Past"
-boss_11009_name = "Ghost from the Past"
-boss_11010_name = "Ghost from the Past"
+boss_11001_name = "Fantasma del pasado"
+boss_11002_name = "Fantasma del pasado"
+boss_11003_name = "Fantasma del pasado"
+boss_11004_name = "Fantasma del pasado"
+boss_11005_name = "Fantasma del pasado"
+boss_11006_name = "Fantasma del pasado"
+boss_11007_name = "Fantasma del pasado"
+boss_11008_name = "Fantasma del pasado"
+boss_11009_name = "Fantasma del pasado"
+boss_11010_name = "Fantasma del pasado"
 
 #Disclaimer on start of the game
 ea_title = "Early Access Disclaimer"
@@ -2870,7 +2870,7 @@ press_description = "Welcome to Book of Demons Press Build!\m1.8Please remember 
 ## 43. BOD DEMO X
 ## 44. Review Window X
 ## 45. BOSS NAMES X
-## 46. QUEST BOSS NAMES X
+## 46. QUEST BOSS NAMES ✔
 
 
 #This line should be always at the end of the file to validate that utf is correct
