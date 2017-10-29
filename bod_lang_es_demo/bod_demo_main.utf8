@@ -666,6 +666,7 @@ crd_charge_buy_ttip = "\s: R-Click to charge as much as possible"
 
 crd_charge_select_pad_ttip = "Press \s9 to select"
 crd_charge_deselect_pad_ttip = "Press \s9 to deselect"
+crd_charge_buy_one_pad_ttip = "Press \s9 to charge once "
 crd_charge_buy_pad_ttip = "Press \s: to charge as much as possible"
 
 crd_charge_full_ttip = "Card already at maximum charge"
@@ -883,10 +884,10 @@ cc_flexi_diff_locked_3 = "To unlock Nightmare difficulty you need to practice en
 cc_flexi_diff_locked_4 = "To unlock Massacre difficulty you need to practice enough on Nightmare"
 cc_flexi_diff_locked_daredevil = "To spice things up, in \^FCDA92Daredevil\^^ mode you can play only on highest available difficulty"
 
-cc_flexi_about_title = "Flexiscope (tm)"
-cc_flexi_about_close = "Close"
-cc_flexi_about_desc1 = "CONGRATULATIONS!\m1.3\^CDBA92FLEXISCOPE\^^ IS NOW AVAILABLE!"
-cc_flexi_about_desc2 = "With Flexiscope you can choose the size of a game session you will play.\m1.8Depending on your preferences, you can divide your adventure into smaller or bigger games. Regardless of how much time you have, Flexiscope makes sure that rewards and threats in a single game are fair and that the gameplay experience can be completed in the predicted time.\m1.8Flexiscope learns your gameplay style, so time estimates for each subsequent session size should be more and more accurate."
+cc_flexi_about_close = "Let's go!"
+cc_flexi_about_close_ttip = "Go choose your game size\nand slay some monsters!"
+cc_flexi_about_desc1 = "CONGRATULATIONS!\m1.3\^FCDA92FLEXISCOPE\^^ IS NOW AVAILABLE!"
+cc_flexi_about_desc2 = "\^FCDA92With Flexiscope you choose the size of your game session.\^^\m1.8Depending on your preferences, you can divide your adventure into smaller or bigger games. Regardless of how much time you have, Flexiscope ensures fair balance of threats and rewards and that the gameplay experience can be completed in the predicted time.\m1.8 Since Flexiscope learns your gameplay style the time estimates for each subsequent session size should be more accurate."
 
 cc_flexi_diff_unlocked_title = "New Difficulty"
 
@@ -1166,7 +1167,7 @@ game_tip_022 = "You can disable hints screen before the dungeon in the options"
 game_tip_023 = "When you open the Cards Pane in dungeon, time slows down so you can use or rearrange cards in the heat of the battle"
 game_tip_024 = "Remember that Remedy card cures and gives immunity to poison, slow, freeze and stun"
 game_tip_025 = "You can pick up gold in dungeon just by hovering over it. You don't need to click on it "
-game_tip_026 = "Icicles create smaller, echo shockwaves when hit by an ice shockwave"
+game_tip_026 = "Icicles create smaller echo shockwaves when hit by an ice shockwave"
 game_tip_027 = "If you enjoy extreme challenge, try the higher difficulty levels in Freeplay mode"
 
 game_tip_total = "28"
@@ -2124,7 +2125,7 @@ wnd_tutorials_select = "Check All"
 wnd_tutorials_deselect = "Clear All"
 wnd_tutorials_skip = "Skip"
 wnd_tutorials_exit = "Close"
-wnd_tutorials_exit_pad = "Close \si"
+wnd_tutorials_exit_pad = "Close"
 
 wnd_tut_prev = "Prev"
 wnd_tut_next = "Next"
