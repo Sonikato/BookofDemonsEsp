@@ -1,0 +1,6 @@
+﻿config:launcher:is_comunity = "falso"
+config:launcher:is_stale = "falso"
+
+config:bod:is_comunity = "falso"
+config:bod:is_stale = "falso"
+
