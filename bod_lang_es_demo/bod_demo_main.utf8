@@ -1,6 +1,5 @@
 ## DEMONS - DEMO - MAIN - ENGLISH
 
-
 ###################### Legend to special markers in this document #################
 ###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
 
@@ -66,7 +65,7 @@ bod_ctrl_frame_keyboard = "Teclado y ratón"
 bod_ctrl_frame_gamepad = "Mando"
 bod_ctrl_frame_steam_info = "La configuración del Mando de Steam puede ser cambiada en las opciones de Steam."
 bod_ctrl_frame_xbox_info = "La configuración del Mando puede ser cambiada en las opciones de Steam"
-
+bod_ctrl_hld_ttip = "El personaje en espera no se moverá ni atacará automáticamente"
 chk_mouse_walk = "Haz click con el ratón para caminar"
 chk_mouse_swap = "Intercambia los botones del ratón"
 ch_smart_walk_ttip = "El personaje se mueve por dónde debería poder caminar"
@@ -107,6 +106,7 @@ bod_act_25 = "Cerrar todas las ventanas"
 bod_act_26 = "Abrir menú"
 bod_act_27 = "Siguiente proyectil especial"
 bod_act_28 = "Alternar mantener"
+bod_act_29 = "Alternar mapa"
 
 bod_ctrl_map_pad_lmb = "Acción primaria"
 bod_ctrl_map_pad_rmb = "Acción secundaria"
@@ -123,6 +123,8 @@ bod_ctrl_map_pad_targetting = "Seleccionar objetivo"
 bod_ctrl_map_pad_use = "Usar"
 bod_ctrl_map_pad_lt = "Ataque estacionario"
 bod_ctrl_map_pad_rt = "Ataque especial"
+bod_ctrl_map_pad_highlight = "Alternar resalto del botín"
+bod_ctrl_map_pad_reset_target = "Reiniciar posición del cursor"
 
 ## Key codes/names - should be short; codes will be displayed in limited space
 
@@ -491,10 +493,10 @@ mag_sign_card_tooltip_2 = "Invoca a un poderoso golem de roca para que pelee a t
 rog_description = "Un astuto ladrón siempre en busca de fama y fortuna. Equipada con un arco vaga a las mazmorras dejando una pila de cadáveres perforados por sus flechas venenosas. La teatralidad y el engaño son sus aliados más poderosos."
 # Fire Arrow
 rog_sign_card_tooltip_0 = "Equipa a tu personaje con flechas de fuego devastadoras que causan daño adicional a monstruos de hielo."
-# Vamp Gloves
-rog_sign_card_tooltip_1 = "Tienes la oportunidad de drenar las fuerzas de vida de los monstruos que matas"
-# Intuition
-rog_sign_card_tooltip_2 = "Tus sentidos agudos te permiten encontrar puntos débiles en escudos e interrumpir el lanzamiento con sus flechas"
+# Claws
+rog_sign_card_tooltip_1 = "A monster getting to close? Cut it to ribbons"
+# Decoy
+rog_sign_card_tooltip_2 = "Summon illusions to fight by your side and quadruple your firepower"
 
 
 ################################
